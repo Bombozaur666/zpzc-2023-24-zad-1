@@ -14,7 +14,7 @@ async def read_items():
     </head>
     <body>
     """
-    html += str(datetime.datetime.now())
+    html += str(datetime.datetime.now(tz=datetime.timezone.utc).isoformat())
     html +=  """
     </body>
     """
