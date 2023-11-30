@@ -14,7 +14,7 @@ async def read_items():
     </head>
     <body>
     """
-    html += datetime.datetime.now()
+    html += str(datetime.datetime.now())
     html +=  """
     </body>
     """
